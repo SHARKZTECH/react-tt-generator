@@ -94,7 +94,7 @@ export default function App() {
           </tr>
         </thead>
         <tbody>
-          <td>{day}</td>
+          <td style={{ color: "yellow", fontSize: "1.2rem" }}>{day}</td>
           {ftt.length > 0 ? (
             ftt.map((t) => (
               <tr>
